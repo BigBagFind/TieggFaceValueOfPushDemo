@@ -10,4 +10,11 @@
 
 @interface NotificationViewController : UIViewController
 
+
+
+
++ (void)registerLocalNotification:(NSInteger)alertTime;
++ (void)cancelLocalNotificationWithKey:(NSString *)key;
+
+
 @end

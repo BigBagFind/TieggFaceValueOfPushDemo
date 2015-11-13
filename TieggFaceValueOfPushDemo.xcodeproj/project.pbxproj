@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		810A432F1BF577C2004E20F9 /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 810A432E1BF577C2004E20F9 /* NotificationViewController.m */; };
+		810A43311BF57F13004E20F9 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 810A43301BF57F13004E20F9 /* icon.png */; };
 		81ABD28B1BF4DBE90022D47F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81ABD28A1BF4DBE90022D47F /* main.m */; };
 		81ABD28E1BF4DBE90022D47F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81ABD28D1BF4DBE90022D47F /* AppDelegate.m */; };
-		81ABD2911BF4DBE90022D47F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81ABD2901BF4DBE90022D47F /* ViewController.m */; };
 		81ABD2941BF4DBE90022D47F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81ABD2921BF4DBE90022D47F /* Main.storyboard */; };
 		81ABD2961BF4DBE90022D47F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81ABD2951BF4DBE90022D47F /* Assets.xcassets */; };
 		81ABD2991BF4DBE90022D47F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81ABD2971BF4DBE90022D47F /* LaunchScreen.storyboard */; };
@@ -35,12 +36,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		810A432D1BF577C2004E20F9 /* NotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationViewController.h; sourceTree = "<group>"; };
+		810A432E1BF577C2004E20F9 /* NotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationViewController.m; sourceTree = "<group>"; };
+		810A43301BF57F13004E20F9 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		81ABD2861BF4DBE90022D47F /* TieggFaceValueOfPushDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TieggFaceValueOfPushDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81ABD28A1BF4DBE90022D47F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		81ABD28C1BF4DBE90022D47F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		81ABD28D1BF4DBE90022D47F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		81ABD28F1BF4DBE90022D47F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		81ABD2901BF4DBE90022D47F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		81ABD2931BF4DBE90022D47F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		81ABD2951BF4DBE90022D47F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81ABD2981BF4DBE90022D47F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,10 +103,11 @@
 		81ABD2881BF4DBE90022D47F /* TieggFaceValueOfPushDemo */ = {
 			isa = PBXGroup;
 			children = (
+				810A43301BF57F13004E20F9 /* icon.png */,
 				81ABD28C1BF4DBE90022D47F /* AppDelegate.h */,
 				81ABD28D1BF4DBE90022D47F /* AppDelegate.m */,
-				81ABD28F1BF4DBE90022D47F /* ViewController.h */,
-				81ABD2901BF4DBE90022D47F /* ViewController.m */,
+				810A432D1BF577C2004E20F9 /* NotificationViewController.h */,
+				810A432E1BF577C2004E20F9 /* NotificationViewController.m */,
 				81ABD2921BF4DBE90022D47F /* Main.storyboard */,
 				81ABD2951BF4DBE90022D47F /* Assets.xcassets */,
 				81ABD2971BF4DBE90022D47F /* LaunchScreen.storyboard */,
@@ -246,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				810A43311BF57F13004E20F9 /* icon.png in Resources */,
 				81ABD2991BF4DBE90022D47F /* LaunchScreen.storyboard in Resources */,
 				81ABD2961BF4DBE90022D47F /* Assets.xcassets in Resources */,
 				81ABD2941BF4DBE90022D47F /* Main.storyboard in Resources */,
@@ -273,9 +277,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81ABD2911BF4DBE90022D47F /* ViewController.m in Sources */,
 				81ABD28E1BF4DBE90022D47F /* AppDelegate.m in Sources */,
 				81ABD28B1BF4DBE90022D47F /* main.m in Sources */,
+				810A432F1BF577C2004E20F9 /* NotificationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +505,7 @@
 				81ABD2B51BF4DBE90022D47F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81ABD2B61BF4DBE90022D47F /* Build configuration list for PBXNativeTarget "TieggFaceValueOfPushDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +514,7 @@
 				81ABD2B81BF4DBE90022D47F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81ABD2B91BF4DBE90022D47F /* Build configuration list for PBXNativeTarget "TieggFaceValueOfPushDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +523,7 @@
 				81ABD2BB1BF4DBE90022D47F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
